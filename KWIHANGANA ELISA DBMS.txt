@@ -1,0 +1,223 @@
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 41
+Server version: 8.3.0 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create table Ruhande;
+ERROR 1046 (3D000): No database selected
+mysql> create table Ruhande;
+ERROR 1046 (3D000): No database selected
+mysql> CREATE DATABASE RUHANDE
+    -> CREATE DATABASE RUHANDE;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE DATABASE RUHANDE' at line 2
+mysql> CREATE DATABASE RUHANDE;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> USE RUHANDE;
+Database changed
+mysql> CREATE TABLE(ID INT(20),FIRST-NAME CHAR(20),SECOND_
+    -> CREATE TABLE(ID INT(20),FIRST-NAME CHAR(20),SECOND_
+    ->  CREATE TABLE(ID INT(20),FIRST-NAME CHAR(20),SECON;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ID INT(20),FIRST-NAME CHAR(20),SECOND_
+CREATE TABLE(ID INT(20),FIRST-NAME CHAR(' at line 1
+mysql>  CREATE TABLE(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT INT(20
+    ->
+    ->
+    ->  CREATE TABLE(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT INT(20),SECTOR CHAR(20),CELL CHAR(20),EMAIL CHAR(30),TELL INT(15));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT ' at line 1
+mysql> CREATE TABLE(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT INT(20),SECTOR CHAR(20),CELL CHAR(20),EMAIL CHAR(30),TELL INT(15));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT ' at line 1
+mysql> CREATE TABLE(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT INT(20),SECTOR CHAR(20),CELL CHAR(20),EMAIL CHAR(30),TELL INT(15));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT ' at line 1
+mysql> CREATE TABLE(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT INT(20),SECTOR CHAR(20),CELL CHAR(20),EMAIL VARCHAR(30),TELL INT(15));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT ' at line 1
+mysql> CREATE TABLE(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT CHAR(20),SECTOR CHAR(20),CELL CHAR(20),EMAIL VARCHAR(30),TELL INT(15));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT ' at line 1
+mysql> ^X^C
+mysql>  CREATE TABLE NGOMA(ID INT(20),FIRST_NAME CHAR(20),SECOND_NAME CHAR(20),PROVINCE CHAR(20),DISTRICT CHAR(20),SECTOR CHAR(20),CELL CHAR(20),EMAIL VARCHAR(30),TELL INT(15));
+Query OK, 0 rows affected, 2 warnings (0.01 sec)
+
+mysql> INSERT VALUES('001','KABAREBE','ERIC','SOUTHERN','HUYE','GOMA','MADINA','wagwanigeee0001@gamail.com','078222222221');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUES('001','KABAREBE','ERIC','SOUTHERN','HUYE','GOMA','MADINA','wagwanigeee000' at line 1
+mysql> INSERT VALUES INTO NGOMA('001','KABAREBE','ERIC','SOUTHERN','HUYE','BBBBNGOMA','MADINA','wagwanigeee0001@gamail.com','078222222221');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUES INTO NGOMA('001','KABAREBE','ERIC','SOUTHERN','HUYE','BBBBNGOMA','MADINA'' at line 1
+mysql> INSERT INTO NGOMA VALUES('001','KABAREBE','ERIC','SOUTHERN','HUYE','BBBBNGOMA','MADINA','wagwanigeee0001@gamail.com','078222222221');
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+mysql> INSERT INTO NGOMA VALUES('002','KABAREBE','ERIYA','SOUTHERN','HUYE','BBBBNGOMA','MADINA','wagwanigeee0002@gamail.com','078222222222');
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+mysql> INSERT INTO NGOMA VALUES('003','KABAREBE','KARISA','SOUTHERN','HUYE','BBBBNGOMA','MADINA','wagwanigeee0003@gamail.com','078222222223');
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+mysql> INSERT INTO NGOMA VALUES('004','KABAREBE','RUTAYISIRE','SOUTHERN','HUYE','BBBBNGOMA','MADINA','wagwanigeee0004@gamail.com','078222222224');
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+mysql>  INSERT INTO NGOMA VALUES('005','KABAREBE','MUKAMANA','SOUTHERN','HUYE','BBBBNGOMA','MADINA','wagwanigeee0005@gamail.com','078222222225');
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+mysql> SELECT*FROM NGOMA
+    -> SELECT*FROM NGOMA
+    ->  SELECT * FROM NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT*FROM NGOMA
+ SELECT * FROM NGOMA' at line 2
+mysql>  SELECT * FROM NGOMA;
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | DISTRICT | SECTOR    | CELL   | EMAIL                      | TELL       |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+|    1 | KABAREBE   | ERIC        | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0001@gamail.com | 2147483647 |
+|    2 | KABAREBE   | ERIYA       | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0002@gamail.com | 2147483647 |
+|    3 | KABAREBE   | KARISA      | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0003@gamail.com | 2147483647 |
+|    4 | KABAREBE   | RUTAYISIRE  | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 |
+|    5 | KABAREBE   | MUKAMANA    | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0005@gamail.com | 2147483647 |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+5 rows in set (0.00 sec)
+
+mysql> UPDATE NGOMA SET ID='15' WHERE SECOND_NAME=ERIC;
+ERROR 1054 (42S22): Unknown column 'ERIC' in 'where clause'
+mysql> UPDATE NGOMA SET ID='15' WHERE SECOND_NAME='ERIC';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM NGOMA
+    -> SELECT * FROM NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM NGOMA' at line 2
+mysql>  SELECT * FROM NGOMA;
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | DISTRICT | SECTOR    | CELL   | EMAIL                      | TELL       |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+|   15 | KABAREBE   | ERIC        | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0001@gamail.com | 2147483647 |
+|    2 | KABAREBE   | ERIYA       | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0002@gamail.com | 2147483647 |
+|    3 | KABAREBE   | KARISA      | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0003@gamail.com | 2147483647 |
+|    4 | KABAREBE   | RUTAYISIRE  | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 |
+|    5 | KABAREBE   | MUKAMANA    | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0005@gamail.com | 2147483647 |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+5 rows in set (0.00 sec)
+
+mysql> UPDATE NGOMA SET FIRST_NAME='MUGISHA' WHERE LAST_NAME='RUTAYISIRE';
+ERROR 1054 (42S22): Unknown column 'LAST_NAME' in 'where clause'
+mysql> UPDATE NGOMA SET FIRST_NAME='MUGISHA' WHERE SECOND_NAME='RUTAYISIRE';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT*FROM NGOMA;
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | DISTRICT | SECTOR    | CELL   | EMAIL                      | TELL       |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+|   15 | KABAREBE   | ERIC        | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0001@gamail.com | 2147483647 |
+|    2 | KABAREBE   | ERIYA       | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0002@gamail.com | 2147483647 |
+|    3 | KABAREBE   | KARISA      | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0003@gamail.com | 2147483647 |
+|    4 | MUGISHA    | RUTAYISIRE  | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 |
+|    5 | KABAREBE   | MUKAMANA    | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0005@gamail.com | 2147483647 |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+
+5 rows in set (0.00 sec)
+
+mysql> ALTER TABLE NGOMA ADD STATUS CHAR(10);
+Query OK, 5 rows affected (0.05 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> SELECT*FROM NGOMA;
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+--------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | DISTRICT | SECTOR    | CELL   | EMAIL                      | TELL       | STATUS |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+--------+
+|   15 | KABAREBE   | ERIC        | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0001@gamail.com | 2147483647 | NULL   |
+|    2 | KABAREBE   | ERIYA       | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0002@gamail.com | 2147483647 | NULL   |
+|    3 | KABAREBE   | KARISA      | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0003@gamail.com | 2147483647 | NULL   |
+|    4 | MUGISHA    | RUTAYISIRE  | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 | NULL   |
+|    5 | KABAREBE   | MUKAMANA    | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0005@gamail.com | 2147483647 | NULL   |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+--------+
+5 rows in set (0.00 sec)
+
+mysql> UPDATE NGOMA SET STATUS='SINGLE' WHERE ID='15';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE NGOMA SET STATUS='MARRIED' WHERE ID='2';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql>  UPDATE NGOMA SET STATUS='DIVORCED' WHERE ID='3';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE NGOMA SET STATUS='SINGLE' WHERE ID='4';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE NGOMA SET STATUS='MARRIED' WHERE ID='5';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT*FROM NGOMA;
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+----------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | DISTRICT | SECTOR    | CELL   | EMAIL                      | TELL       | STATUS   |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+----------+
+|   15 | KABAREBE   | ERIC        | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0001@gamail.com | 2147483647 | SINGLE   |
+|    2 | KABAREBE   | ERIYA       | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0002@gamail.com | 2147483647 | MARRIED  |
+|    3 | KABAREBE   | KARISA      | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0003@gamail.com | 2147483647 | DIVORCED |
+|    4 | MUGISHA    | RUTAYISIRE  | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 | SINGLE   |
+|    5 | KABAREBE   | MUKAMANA    | SOUTHERN | HUYE     | BBBBNGOMA | MADINA | wagwanigeee0005@gamail.com | 2147483647 | MARRIED  |
++------+------------+-------------+----------+----------+-----------+--------+----------------------------+------------+----------+
+5 rows in set (0.00 sec)
+
+mysql> ALTER TABLE NGOMA DROP COLUMN DISTRICT;
+Query OK, 5 rows affected (0.04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> SELECT*FROM GOMA;
+ERROR 1146 (42S02): Table 'ruhande.goma' doesn't exist
+mysql> SELECT FROM NGOMA;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM NGOMA' at line 1
+mysql> SELECT * FROM NGOMA;
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+----------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | SECTOR    | CELL   | EMAIL                      | TELL       | STATUS   |
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+----------+
+|   15 | KABAREBE   | ERIC        | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0001@gamail.com | 2147483647 | SINGLE   |
+|    2 | KABAREBE   | ERIYA       | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0002@gamail.com | 2147483647 | MARRIED  |
+|    3 | KABAREBE   | KARISA      | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0003@gamail.com | 2147483647 | DIVORCED |
+|    4 | MUGISHA    | RUTAYISIRE  | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 | SINGLE   |
+|    5 | KABAREBE   | MUKAMANA    | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0005@gamail.com | 2147483647 | MARRIED  |
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+----------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT ID,SECTOR FROM NGOMA;
++------+-----------+
+| ID   | SECTOR    |
++------+-----------+
+|   15 | BBBBNGOMA |
+|    2 | BBBBNGOMA |
+|    3 | BBBBNGOMA |
+|    4 | BBBBNGOMA |
+|    5 | BBBBNGOMA |
++------+-----------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT * FROM NGOMA WHERE ID='4' AND CELL='MADINA';
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+--------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | SECTOR    | CELL   | EMAIL                      | TELL       | STATUS |
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+--------+
+|    4 | MUGISHA    | RUTAYISIRE  | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 | SINGLE |
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+--------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM NGOMA WHERE ID='4' OR CELL='MADINA';
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+----------+
+| ID   | FIRST_NAME | SECOND_NAME | PROVINCE | SECTOR    | CELL   | EMAIL                      | TELL       | STATUS   |
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+----------+
+|   15 | KABAREBE   | ERIC        | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0001@gamail.com | 2147483647 | SINGLE   |
+|    2 | KABAREBE   | ERIYA       | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0002@gamail.com | 2147483647 | MARRIED  |
+|    3 | KABAREBE   | KARISA      | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0003@gamail.com | 2147483647 | DIVORCED |
+|    4 | MUGISHA    | RUTAYISIRE  | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0004@gamail.com | 2147483647 | SINGLE   |
+|    5 | KABAREBE   | MUKAMANA    | SOUTHERN | BBBBNGOMA | MADINA | wagwanigeee0005@gamail.com | 2147483647 | MARRIED  |
++------+------------+-------------+----------+-----------+--------+----------------------------+------------+----------+
+5 rows in set (0.00 sec)
+
+mysql>
